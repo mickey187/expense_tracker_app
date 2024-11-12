@@ -29,16 +29,7 @@ const items = [
     url: "/view-expense",
     icon: CreditCard,
   },
-  {
-    title: "Search",
-    url: "/search",
-    icon: Search,
-  },
-  {
-    title: "Settings",
-    url: "/settings",
-    icon: Settings,
-  },
+  
 ];
 
 export function AppSidebar() {

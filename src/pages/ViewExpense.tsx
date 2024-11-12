@@ -99,7 +99,7 @@ const data = [
   },
 ];
 export default function ViewExpense() {
-  const [tableData, setTableData] = useState<Income[]>([]);
+  const [tableData, setTableData] = useState<Expense[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
