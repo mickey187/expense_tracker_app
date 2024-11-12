@@ -1,4 +1,4 @@
-import { LayoutDashboardIcon, Home, Inbox, Search, Settings, HandCoins, CreditCard } from "lucide-react";
+import { LayoutDashboardIcon,  HandCoins, CreditCard } from "lucide-react";
 import { Link } from "react-router-dom";
 
 import {

@@ -16,16 +16,9 @@ import {
   ChartTooltipContent,
 } from "@/components/ui/chart";
 import { useEffect, useState } from "react";
-import { getAllExpenseApi, getExpenseByMonthApi, getTotalExpenseApi } from "@/api/Expense";
+import { getExpenseByMonthApi, getTotalExpenseApi } from "@/api/Expense";
 import { getCurrentBalanceApi, getCurrentBalanceFxApi, getIncomeByMonthApi, getTotalIncomeApi } from "@/api/Income";
-const chartData = [
-  { month: "January", desktop: 186 },
-  { month: "February", desktop: 305 },
-  { month: "March", desktop: 237 },
-  { month: "April", desktop: 73 },
-  { month: "May", desktop: 209 },
-  { month: "June", desktop: 214 },
-];
+
 const incomeChartConfig = {
   desktop: {
     label: "Desktop",

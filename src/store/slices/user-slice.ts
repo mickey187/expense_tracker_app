@@ -11,12 +11,7 @@ interface UserState {
 }
 
 // Define the user data type for API responses
-interface UserResponse {
-  username: string;
-  email: string;
-  _id: string;
-  token: string;
-}
+
 
 // Define the initial state
 const loadUserDataFromLocalStorage = (): UserState | null => {

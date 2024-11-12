@@ -14,10 +14,7 @@ export type Income = {
   date: string;
 };
 
-interface DataTableProps<TData, TValue> {
-  columns: ColumnDef<TData, TValue>[];
-  data: TData[];
-}
+
 
 export const columns: ColumnDef<Income>[] = [
   {
