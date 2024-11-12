@@ -1,7 +1,10 @@
 
 import './App.css'
-import { Button } from "@/components/ui/button"
-import { Sidebar } from './components/ui/sidebar'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Layout from './layout';
+import { ThemeProvider } from "@/components/theme-provider"
+import AddExpense from './pages/AddExpense';
+import ViewIncome from './pages/ViewIncome';
 
 
 function App() {
@@ -9,9 +12,13 @@ function App() {
 
   return (
     <>
-      <div>
-      <Sidebar/>
-    </div>
+    <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
+       <Router>
+        <Layout/>
+    
+    </Router>
+    </ThemeProvider>
+     
     </>
   )
 }
