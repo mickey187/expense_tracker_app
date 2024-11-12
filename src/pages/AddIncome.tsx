@@ -101,9 +101,9 @@ export default function AddIncome() {
                       <SelectValue placeholder="Select" />
                     </SelectTrigger>
                     <SelectContent position="popper">
-                      <SelectItem value="next">Salary</SelectItem>
-                      <SelectItem value="sveltekit">Freelance</SelectItem>
-                      <SelectItem value="astro">Other</SelectItem>
+                      <SelectItem value="salary">Salary</SelectItem>
+                      <SelectItem value="freelance">Freelance</SelectItem>
+                      <SelectItem value="other">Other</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
