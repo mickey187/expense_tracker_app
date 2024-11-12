@@ -15,10 +15,7 @@ export type Expense = {
   date: string;
 };
 
-interface DataTableProps<TData, TValue> {
-  columns: ColumnDef<TData, TValue>[];
-  data: TData[];
-}
+
 
 export const columns: ColumnDef<Expense>[] = [
   {
@@ -90,14 +87,7 @@ export const columns: ColumnDef<Expense>[] = [
 ];
 
 
-const data = [
-  {
-    id: "728ed52f",
-    amount: 100,
-    status: "pending",
-    email: "m@example.com",
-  },
-];
+
 export default function ViewExpense() {
   const [tableData, setTableData] = useState<Expense[]>([]);
   const [loading, setLoading] = useState(false);

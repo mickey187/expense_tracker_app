@@ -11,7 +11,6 @@ import {
 import {
   Card,
   CardContent,
-  CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
@@ -29,7 +28,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { createExpenseApi } from "@/api/Expense";
 export default  function AddExpense  () {
-  const [date, setDate] = React.useState<Date | null>(null);
+  const [date, setDate] = React.useState<Date | any>(null);
   const [amount, setAmount] = React.useState<number | null>(null);
   const [category, setCategory] = React.useState<string | null>(null);
   const [loading, setLoading] = React.useState(false);

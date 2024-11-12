@@ -28,7 +28,7 @@ import { Input } from "@/components/ui/input";
 import { createIncomeApi } from "@/api/Income";
 
 export default function AddIncome() {
-  const [date, setDate] = React.useState<Date | null>(null);
+  const [date, setDate] = React.useState<Date | any>(null);
   const [amount, setAmount] = React.useState<number | null>(null);
   const [source, setSource] = React.useState<string | null>(null);
   const [loading, setLoading] = React.useState(false);

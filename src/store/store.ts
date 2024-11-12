@@ -18,7 +18,7 @@ const store = configureStore({
 });
 
 // Dispatch fetchCartItemsThunk with customerId from the user slice
-const { userId } = store.getState().user;
+
 // Dispatch the init action after store creation
 store.dispatch(init());
 
