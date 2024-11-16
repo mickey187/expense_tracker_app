@@ -4,7 +4,7 @@
 The Expense Tracker App is a mobile application that helps users manage their finances by tracking their income and expenses. This app allows users to categorize transactions, generate financial reports, and set budgets. It's built using React Native for a seamless experience on both iOS and Android devices.
 
 ## Live Demo
-- https://expense-tracker-hu35wpcml-michias-hailus-projects.vercel.app
+- https://expense-tracker-app-lemon-delta.vercel.app
 
 ## Features
 - **Expense Management**: Add, edit, and delete expenses.
